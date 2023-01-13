@@ -25,11 +25,12 @@ body {
   width: 100%;
   padding: 15px;
   gap: 20%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .header {
   font-size: 0.8em;
+  align-items: center;
 }
 
 .pages {
@@ -38,13 +39,15 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 250px;
 }
 
 .pages > * {
   background-color: aquamarine;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
+  color: black;
+  border-radius: 12%;
 }
 
 .content {
@@ -52,7 +55,13 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  background-color: aqua;
+  height: 370px;
+  padding-top: 85px;
+  width: 730px;
+  border-radius: 13%;
+
 }
 
 .menu {
@@ -64,6 +73,8 @@ body {
   background-color: white;
   padding: 20px;
   height: 440px;
+  border-radius: 12%;
+
 }
 
 .input > * {
@@ -75,7 +86,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .time {
@@ -85,9 +96,10 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  width: 700px;
-  gap: 50px;
+  height: 65px;
+  width: 650px;
+  gap: 70px;
+  border-radius: 12%;
 }
 
 .time > * {
@@ -99,13 +111,14 @@ body {
 .sort_options {
   background-color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   padding: 20px;
   height: 440px;
   width: 200px;
-  gap: 20px;
+  gap: 30px;
+  border-radius: 12%;
 }
 
 .container {
@@ -117,6 +130,7 @@ body {
   justify-content: center;
   transition: 2s all ease;
   padding: 30px;
+  border-radius:12%;
 }
 
 .bar {
@@ -126,13 +140,15 @@ body {
   transition: 0.1s all ease;
 }
 
-.bar {
-  background-color: rgb(14, 14, 14);
-  cursor: pointer;
-}
-
 button {
   padding: 10px;
   font-size: 1em;
   width: 130px;
+}
+
+
+
+.bar {
+  background-color: rgb(14, 14, 14);
+  cursor: pointer;
 }
